@@ -88,6 +88,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    /*z-index: -1;*/
 }
 
 .texture-paper::before {
@@ -775,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
