@@ -824,10 +824,6 @@ h4 {
     border-color: #364577!important;
 }
 
-/*.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}*/
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
@@ -1037,6 +1033,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .social {
+        max-width: 300px;
+        display: flex;
+        justify-content: space-around;
     }
 }
 
