@@ -134,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1)
 }
 
 .d-bloc .a-btn:hover,
@@ -151,7 +151,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, .6)
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -652,7 +652,10 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -701,8 +704,19 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 550px;
     margin: auto auto auto auto;
+    color: #FFFFFF;
+}
+
+.social-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-link:hover {
+    color: rgba(255, 255, 255, .6);
+    transition: .3s ease-in-out;
 }
 
 h2 {
@@ -772,7 +786,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #c66b3d;
+    background-color: #b05e35;
 }
 
 .tc-white {
@@ -780,12 +794,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #c66b3d;
+    background: #b05e35;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #26495c!important;
     color: #FFFFFF!important;
 }
 
@@ -798,11 +812,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #c66b3d!important;
+    color: #b05e35!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #b05e35!important;
 }
 
 .icon-dark-slate-blue {
@@ -1047,6 +1061,8 @@ h4 {
     font-style: italic;
 }
 
-.citation-author {
-    font-weight: bold;
+.icon-and-txt {
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
