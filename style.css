@@ -1043,6 +1043,10 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .portfolio-thumb {
+        margin: 30px auto;
+    }
 }
 
 .citation {
