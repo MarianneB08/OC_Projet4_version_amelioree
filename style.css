@@ -90,11 +90,6 @@ a:hover {
     right: 0;
 }
 
-/*.texture-paper::before {
-    background: url("img/texture-paper.webp");
-    background-size: 280px 280px;
-}*/
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -663,6 +658,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    background-color: rgba(176, 94, 53, 0.7);
 }
 
 .hero-bloc-text-sub {
@@ -767,7 +763,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /*background-color: rgba(165, 147, 99, 0.7);*/
+    background-color: rgba(176, 94, 53, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
