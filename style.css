@@ -294,6 +294,8 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    margin-right: 900px;
+    margin-left: 40px;
 }
 
 .navbar-brand img {
@@ -323,6 +325,11 @@ a:hover {
     font-size: 16px;
 }
 
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -335,6 +342,9 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    float: none;
+    position: absolute;
+    right: 30px;
 }
 
 .navbar-toggle:hover {
@@ -699,8 +709,17 @@ p {
     font-weight: 700;
 }
 
+.citation-container {
+    margin: 0 auto;
+}
+
+.citation {
+    font-style: italic;
+    margin: 0 auto;
+}
+
 .social {
-    max-width: 550px;
+    max-width: 600px;
     margin: auto auto auto auto;
     color: #FFFFFF;
 }
@@ -764,7 +783,6 @@ h4 {
 }
 
 .black-background {
-    /*background-color: rgba(165, 147, 99, 0.7);*/
     background-color: rgba(176, 94, 53, 0.7);
     padding: 40px 40px 40px 40px;
 }
@@ -1044,6 +1062,7 @@ h4 {
 
 .citation {
     font-style: italic;
+    margin: 0 auto;
 }
 
 .icon-and-txt {
@@ -1055,4 +1074,7 @@ h4 {
 .bg-brown {
     background-color: rgba(176, 94, 53, 0.7);
     padding: 20px;
+    margin: 0 auto;
 }
+
+
