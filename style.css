@@ -13,6 +13,10 @@ button {
     outline: none!important;
 }
 
+a, button:focus {
+    transition: none;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -336,7 +340,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+border: 2px solid #b05e35;
+background-color: #FFFFFF;
 }
 
 .navbar-toggle {
@@ -349,6 +354,12 @@ a:hover {
 
 .navbar-toggle:hover {
     background: transparent!important;
+}
+
+.navbar-toggle:focus {
+    border: 2px solid #b05e35;
+    background-color: #FFFFFF;
+    border-radius: 0px;
 }
 
 .navbar-toggle .icon-bar {
@@ -515,6 +526,11 @@ button {
     box-shadow: none;
 }
 
+.form-control:focus {
+    border: 2px solid #b05e35;
+    box-shadow: 2px 3px 4px #b05e35;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -563,6 +579,10 @@ a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+}
+
+a[data-lightbox]:focus img {
+    border: 4px solid #b05e35;
 }
 
 #lightbox-modal {
@@ -709,6 +729,10 @@ p {
     font-weight: 700;
 }
 
+.cta-hero:focus{
+border: 2px solid #FFFFFF;
+}
+
 .citation-container {
     margin: 0 auto;
 }
@@ -732,6 +756,12 @@ p {
 .social-link:hover {
     color: rgba(255, 255, 255, .6);
     transition: .3s ease-in-out;
+}
+
+.social-link:focus {
+    color: #FFFFFF;
+    border: 2px solid #FFF;
+    text-decoration: none;         
 }
 
 h2 {
@@ -812,6 +842,10 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #26495c!important;
     color: #FFFFFF!important;
+}
+
+.btn-focus:focus {
+    box-shadow: 2px 3px 4px #b05e35;
 }
 
 .ltc-white {
